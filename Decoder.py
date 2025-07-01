@@ -31,7 +31,7 @@ class TransformerDecoder(nn.Module):
     def __init__(self, vocab):
         """
         Args:
-            vocab (Vocab):  词表, 因为需要进行词嵌入操作
+            vocab (Vocab):  词表, 因为需进行词嵌入操作
         """
         super().__init__()
         self.input_size = parameters['Decoder']['input_size']
